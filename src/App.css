@@ -9,20 +9,31 @@
   display: flex; justify-content: center; align-items: center;
   margin-bottom: 4rem;
   box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-}
 
-.city-box{
+  font-family: 'Poppins'
+}
+.search-box, .city-box{
   border: 1px solid blueviolet;
   width: 50%;
+}
+.search-box{
   display: flex; align-items: center; 
   justify-content: space-between;
   flex-direction: row;
+  text-align: center
+}
+.city-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 0.5fr;
 }
 
-.centered-items, .right-aligned-items {
+.centered-items {
   display: flex;  align-items: center;
 }
-
+.right-aligned-items{
+  display: flex;
+  justify-content: flex-end;
+}
 .cities-div{
   display: flex; justify-content: center; align-items: center;
   flex-direction: column;

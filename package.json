@@ -17,6 +17,7 @@
     "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
     "react-service-worker": "^0.1.1",
+    "typeface-poppins": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

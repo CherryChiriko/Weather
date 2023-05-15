@@ -5,13 +5,18 @@
 
 .title{
   width: 100%; height: 200px;
-  background-color: aquamarine;
   display: flex; justify-content: center; align-items: center;
   margin-bottom: 4rem;
   box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
 
   font-family: 'Poppins'
 }
+.div-around-title{ 
+  background-color: aquamarine;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
+}
+
 .search-box, .city-box{
   border: 1px solid blueviolet;
   width: 50%;
@@ -25,6 +30,12 @@
 .city-box{
   display: grid;
   grid-template-columns: repeat(2, 1fr) 0.5fr;
+  min-width: 300px;
+  /* cursor: pointer; */
+}
+.active{
+  background-color: blueviolet;
+  color: white;
 }
 
 .centered-items {
@@ -41,3 +52,5 @@
 .city-text{
   font-weight: bold;
 }
+
+
